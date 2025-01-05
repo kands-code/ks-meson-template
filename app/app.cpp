@@ -1,4 +1,3 @@
-#include <foo/foo.hpp>
 #include <format>
 #include <functional>
 #include <palgo/math.hpp>
@@ -9,10 +8,9 @@
 #include <vector>
 
 int main() {
-  foo();
   std::string text1 = std::format("Answer for fib(42) is {}", fib(42));
 
-  std::vector<int> arr{-2, 3, 1, 5, 6, 13, 8, -4, 9};
+  std::vector<int> arr{-2, 3, 1, 5, 6, 12, 8, -4, 9};
   std::stringstream ss;
   for (auto &e : arr) {
     ss << e << " ";

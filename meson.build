@@ -4,7 +4,6 @@ project(
     'cpp',
     version: '0.1',
     license: 'AGPL-3.0-or-later',
-    license_files: 'LICENSE',
     meson_version: '1.6.1',
     # options ref: https://mesonbuild.com/Builtin-options.html
     default_options: [
@@ -13,9 +12,6 @@ project(
     ],
 )
 cxx = meson.get_compiler('cpp')
-# third part dependencies folder
-# usually for built libraries
-subdir('third')
 # subfolders
 subdir('include')
 subdir('src')
