@@ -4,7 +4,7 @@ project(
     'cpp',
     version: '0.1',
     license: 'AGPL-3.0-or-later',
-    meson_version: '1.6.1',
+    meson_version: '>=1.6.1',
     # options ref: https://mesonbuild.com/Builtin-options.html
     default_options: [
         'cpp_std=c++23',
